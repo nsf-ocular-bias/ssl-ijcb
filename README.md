@@ -1,5 +1,5 @@
 # A Self-Supervised Learning Pipeline for Demographically Fair Facial Attribute Classification
-<img src="Fig1.png" width="700" >
+<img src="Fig1.png" width="800" >
 
 Repository contains code to curate dataset given unlabeled dataset.
 - [Research Paper]()
