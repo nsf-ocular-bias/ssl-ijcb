@@ -93,7 +93,7 @@ If you use this work, please cite the following papers.
 @inproceedings{ssl-ijcb,
   author       = {Sreeraj Ramachandran and Ajita Rattani},
   title        = {A Self-Supervised Learning Pipeline for Demographically Fair Facial Attribute Classification},
-  booktitle    = {{IJCB}},
+  booktitle    = {{The IEEE International Joint Conference on Biometrics (IJCB)}},
   publisher    = {{IEEE}},
   year         = {2024}
 }
@@ -101,7 +101,7 @@ If you use this work, please cite the following papers.
 ```
 ## Acknowledgment
 
-TODO
+This work is supported by National Science Foundation (NSF) award no. 2129173.
 
 ## License
 This project is licensed under the terms of the Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)) license.
