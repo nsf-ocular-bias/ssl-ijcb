@@ -1,7 +1,6 @@
 # A Self-Supervised Learning Pipeline for Demographically Fair Facial Attribute Classification
 <img src="Fig1.png" width="800" >
 
-Repository contains code to curate dataset given unlabeled dataset.
 - [Research Paper]()
 
 Version 1.0 (07.01.2024)
@@ -40,7 +39,7 @@ For more details, please take a look at the [Research Paper]().
 
 # Data Curation Pipeline for Facial Attribute Classification
 
-This repository outlines a data curation pipeline designed for training self-supervised models on compact datasets. The approach focuses on ensuring exceptional quality, diversity, and balance in the training data, even in low-compute settings. Below are the detailed steps of the data curation process.
+The approach focuses on ensuring exceptional quality, diversity, and balance in the training data, even in low-compute settings. Below are the detailed steps of the data curation process.
 
 ## Data Curation Pipeline
 <img src="Fig2.png" width="700" >

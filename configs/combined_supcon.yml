@@ -1,0 +1,34 @@
+data:
+  in_memory: 1
+  num_workers: 12
+  train_dataset: "datasets/combined.beton"
+  val_dataset: "datasets/fairface_val.beton"
+dist:
+  world_size: 8
+  port: "12345"
+logging:
+  folder: ssl-logs/combined-supcon
+lr:
+  lr: 1.7
+  lr_schedule_type: cyclic
+model:
+  arch: resnet18
+resolution:
+  end_ramp: 85
+  max_res: 192
+  min_res: 160
+  start_ramp: 70
+training:
+  loss: "supcon"
+  batch_size: 256
+  bn_wd: 0
+  distributed: 1
+  epochs: 100
+  label_smoothing: 0
+  momentum: 0.9
+  optimizer: "adamw"
+  weight_decay: 0.0001
+  use_blurpool: 0
+validation:
+  lr_tta: False
+  resolution: 256

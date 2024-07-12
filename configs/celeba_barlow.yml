@@ -1,0 +1,33 @@
+data:
+  in_memory: 1
+  num_workers: 12
+  train_dataset: "celeba_train_gender.beton"
+  val_dataset: "celeba_val_gender.beton"
+dist:
+  world_size: 8
+logging:
+  folder: ssl-logs/celeba-barlow
+lr:
+  lr: 1.7
+  lr_schedule_type: cyclic
+model:
+  arch: resnet18
+resolution:
+  end_ramp: 85
+  max_res: 192
+  min_res: 160
+  start_ramp: 70
+training:
+  loss: "barlow"
+  batch_size: 256
+  bn_wd: 0
+  distributed: 1
+  epochs: 200
+  label_smoothing: 0
+  momentum: 0.9
+  optimizer: "adamw"
+  weight_decay: 0.0001
+  use_blurpool: 0
+validation:
+  lr_tta: False
+  resolution: 256
